@@ -1,0 +1,12 @@
+{
+  "name": "gift-card-studio",
+  "private": true,
+  "scripts": {
+    "setup": "npm install && npm --prefix client install && npm --prefix server install",
+    "dev": "concurrently -n server,client \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "test": "npm --prefix server test && npm --prefix client test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

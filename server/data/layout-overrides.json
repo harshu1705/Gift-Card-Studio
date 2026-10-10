@@ -1,0 +1,24 @@
+{
+  "diwali-blank": {
+    "version": 2,
+    "blocks": {
+      "recipient": {
+        "x": 13.7,
+        "y": 49,
+        "width": 84,
+        "fontSize": 30,
+        "fontFamily": "Montserrat",
+        "fontWeight": 500,
+        "color": "#fff4e0",
+        "align": "center"
+      },
+      "closing": {
+        "x": 21.9
+      },
+      "sender": {
+        "x": 20.8,
+        "y": 80.8
+      }
+    }
+  }
+}
